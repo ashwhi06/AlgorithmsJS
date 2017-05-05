@@ -3,7 +3,7 @@ function findLongestWord(str) {
 
 	var longestWord = 0;  // initializes variable that will hold longest word
 
-	for (var i = 0; i < longestWord.length; i++) { 
+	for (var i = 0; i < strSplit.length; i++) { 
 		if (strSplit[i].length > longestWord) { //checking to see if the strSplit[i] is greater than the longest word
 			longestWord = strSplit[i].length; //setting the longestword will take the value of strSplit[i] so that we can return it
 		}
