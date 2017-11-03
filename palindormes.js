@@ -4,3 +4,10 @@ function palindrome (str) {
 	var reverseStr = regExToLower.split('').reverse().join(''); //split the string into substrings, reverse the array, then join all the elements
 	return regExToLower == reverseStr; // check to see if regExToLower equals reverseStr and return true/false
 }
+
+// Simplified
+
+function palindrome (str) {
+	return str = str.split('').reverse().join('');
+}
+
